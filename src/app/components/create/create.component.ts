@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Store } from '@ngxs/store';
-import { AddUser } from 'src/app/actions/user.action';
+import { AddUser } from '../../actions/user.action';
 
 @Component({
   selector: 'app-create',
